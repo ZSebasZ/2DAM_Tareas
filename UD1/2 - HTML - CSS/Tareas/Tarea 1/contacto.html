@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1 - Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Mi primera web</h1>
+        <nav>
+            <ol>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./contenidos.html">Contenidos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ol>
+        </nav>
+    </header>
+    <hr>
+    <div>
+        <section>
+            <article>
+                <h2>Contáctame aquí.</h2>
+            </article>
+            <article>
+                <form action="./index.html" method="get">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Sebastian Jimenez">
+                    <br>
+                    <br>
+                    <label for="biografia">Biografia: </label>
+                    <br>
+                    <textarea name="biografia" id="biografia" cols="30" rows="10" required placeholder="Cuentanos un poco sobre ti"></textarea>
+                    <br>
+                    <br>
+                    <label for="edad">Edad: </label>
+                    <select name="edad" id="edad">
+                        <option value="mayoredad">Mayor de edad</option>
+                        <option value="adulto">Adulto</option>
+                        <option value="mayor65anos">Mayor de 65 años</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
