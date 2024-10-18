@@ -223,9 +223,7 @@ footer {
 }
 
 /*Responsive*/
-
-
-/*Entre 8px y 1330px*/
+/*Entre 870px y 1330px*/
 @media screen and (max-width: 1330px) {
 
     
@@ -270,7 +268,7 @@ footer {
     }
 }
 
-/*Para max 800px*/
+/*Para maximo 870px*/
 @media screen and (max-width: 870px) {
 
     #content {
